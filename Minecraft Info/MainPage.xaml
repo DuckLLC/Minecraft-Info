@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="Minecraft_Info.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Minecraft_Info"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <TextBlock>Minecraft Info</TextBlock>
+
+        <TextBlock>Current Versions</TextBlock>
+        <Button Click="Button_Click">Verions</Button>
+        <Button Click="Button_Click_1" Content="Swords" RenderTransformOrigin="0.519,0.578" Width="66" />
+        <TextBlock Name="Verions" Visibility="Collapsed">
+        1.19.2 (Newest) 
+            <LineBreak></LineBreak>
+        1.19.1
+            <LineBreak></LineBreak>
+        1.19
+            <LineBreak></LineBreak>
+        1.18.2
+            <LineBreak></LineBreak>
+        1.18.1
+            <LineBreak></LineBreak>
+        1.18
+            <LineBreak></LineBreak>
+        1.17.1
+            <LineBreak></LineBreak>
+        1.17
+            <LineBreak></LineBreak>
+        1.16.5
+            <LineBreak></LineBreak>
+        1.16.4
+            <LineBreak></LineBreak>
+        1.16.3
+            <LineBreak></LineBreak>
+        1.16.2
+            <LineBreak></LineBreak>
+        1.16.1
+            <LineBreak></LineBreak>
+        1.16
+        </TextBlock>
+        <TextBlock Name="Swords" Visibility="Collapsed">
+           For Verions 1.16 and above
+            <LineBreak></LineBreak>
+            Netherite is the best
+            <LineBreak></LineBreak>
+           For Verions 1.15 and below
+            <LineBreak></LineBreak>
+            Diamond is the best
+        </TextBlock>
+    </StackPanel>
+
+    
+    
+</Page>     
